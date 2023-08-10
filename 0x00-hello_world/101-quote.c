@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 	char my_ch[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	for (i = 0; i < sizeof(my_ch) / sizeof(my_ch[0]); i++)
+	for (i = 0; my_ch[i] != '\0'; i++)
 		putchar(my_ch[i]);
 	putchar('\n');
 	return (1);
