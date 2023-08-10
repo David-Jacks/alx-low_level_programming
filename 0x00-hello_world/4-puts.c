@@ -1,6 +1,9 @@
 #include<stdio.h>
+
 /**
- *this is the main function
+ *main - Entry
+ *
+ *Return: Always 0 (success)
  */
 int main(void)
 {

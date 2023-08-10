@@ -5,9 +5,7 @@
 */
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ *this is the main function 
  */
 int main(void)
 {
