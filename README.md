@@ -1,2 +1,4 @@
-# alx-low_level_programming
-c programming module @ alx africa
+### C_programming_module
+*c programming module @ alx africa*
+
+A complete guide to effecient and best programming principles, *focusing on C*
