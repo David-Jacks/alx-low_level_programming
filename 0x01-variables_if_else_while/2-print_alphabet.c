@@ -9,11 +9,11 @@
 
 int main(void)
 {
-	int start = 'a';
+	int start;
 	int end = 'z';
 	char ans;
 
-	for (start; start != end + 1; start++)
+	for (start = 'a'; start != end + 1; start++)
 	{
 		ans = (char)start;
 		putchar(ans);
