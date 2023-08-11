@@ -1,27 +1,27 @@
 #include <stdio.h>
 
 /**
- *main function 
+ * main - function
  *
- * return 0 meaning (success)
+ * Return: 0 meaning (success)
  */
 
 int main(void)
 {
-	int start = 'a';
+	int i;
 	int end = 'z';
 	char ans;
 
-	for (start; start != end + 1; start++)
+	for (i = 97; i != end + 1; i++)
 	{
-		ans = start;
+		ans = i;
 		if (ans == 'q' || ans == 'e')
 		{
-			start += 1;
-			ans = start;
+			i += 1;
+			ans = i;
 		}
 		putchar(ans);
 	}
 	putchar('\n');
-	return (0);	
+	return (0);
 }

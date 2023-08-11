@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- *main function 
+ * main - function
  *
- * return 0 meaning (success)
+ * Description: program prints alphabets
+ * Return: 0 meaning (success)
  */
 
 int main(void)
 {
-	int start = (int)'a';
-	int end = (int)'z';
+	int start = 'a';
+	int end = 'z';
 	char ans;
 
 	for (start; start != end + 1; start++)
@@ -18,5 +19,5 @@ int main(void)
 		putchar(ans);
 	}
 	putchar('\n');
-	return (0);	
+	return (0);
 }

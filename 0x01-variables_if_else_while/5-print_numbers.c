@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main function 
+ * main - function
  *
- * return 0 meaning (success)
+ * Return: 0 meaning (success)
  */
 
 int main(void)
@@ -13,5 +13,5 @@ int main(void)
 	for (i = 0; i < 10; i++)
 		printf("%d", i);
 	putchar('\n');
-	return (0);	
+	return (0);
 }

@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- *main function 
+ *main - function
  *
- * return 0 meaning (success)
+ *Return: 0 meaning (success)
  */
 
 int main(void)
 {
 	int start = (int)'a';
-	int end = (int)'z';
+	int end;
 	char ans;
 
-	for (end; end != start - 1; end--)
+	for (end = 'z'; end != start - 1; end--)
 	{
 		ans = end;
 		putchar(ans);
 	}
 	putchar('\n');
-	return (0);	
+	return (0);
 }

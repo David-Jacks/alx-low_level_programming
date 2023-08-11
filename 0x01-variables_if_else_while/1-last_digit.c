@@ -5,11 +5,11 @@
 
 /* betty style doc for function main goes there */
 /**
- *main function 
+ *main - function
  *
- * return 0 meaning (success)
+ *Description: this program prints last digit
+ *Return: 0 meaning (success)
  */
-/* more headers goes there */
 
 int main(void)
 {
@@ -20,7 +20,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	ld = n % 10;
-	printf("the last digit of %d is %d", n, ld);
+	printf("last digit of %d is %d", n, ld);
 	if (ld > 5)
 		printf(" and is greater than 5\n");
 	if (ld == 0)
