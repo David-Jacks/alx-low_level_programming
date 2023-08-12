@@ -17,16 +17,16 @@ int main(void)
 	{
 		for (j = 48; j < 58; j++)
 		{
-			for (k = i; k < 58; k++)
+			for (k = 48; k < 58; k++)
 			{
-				for (m = j + 1; m < 58; m++)
+				for (m = 48 + 1; m < 58; m++)
 				{
 					putchar(i);
 					putchar(j);
 					putchar(' ');
 					putchar(k);
 					putchar(m);
-					if (i ==57 && j == 56 && k == 57 && m == 57)
+					if (i == 57 && j == 56 && k == 57 && m == 57)
 						break;
 					putchar(',');
 					putchar(' ');
