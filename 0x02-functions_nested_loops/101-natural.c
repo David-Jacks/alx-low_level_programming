@@ -17,5 +17,5 @@ int main(void)
 			sum += i;
 	}
 	putchar('\n');
-	return (0);
+	return (sum);
 }
