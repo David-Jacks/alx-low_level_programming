@@ -11,8 +11,14 @@ int print_last_digit(int n)
 	int ans;
 
 	if (n & (0x80000000))
+	{
 		ans = (n % 10) * -1;
+		putchar(ans + '0');
+	}
 	else
+	{
 		ans = n % 10;
+		putchar(ans + '0');
+	}
 	return (ans);
 }
