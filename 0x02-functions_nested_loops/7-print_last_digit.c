@@ -1,12 +1,18 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main - main fuction
- *
- * Return: return 0 as successs
+ * print_last_digit - function to print absolute values
+ * @n: a variable to contain the number to be checked
+ * Return: return depends on input
  */
-int main(void)
+
+int print_last_digit(int n)
 {
-	printf("_putchar\n");
-	return (0);
+	int ans = print_sign(n);
+
+	if (ans == -1)
+		ans = (n % 10) * -1;
+	else
+		ans = n % 10;
+	return (ans);
 }

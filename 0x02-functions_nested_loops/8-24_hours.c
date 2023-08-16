@@ -1,12 +1,33 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main - main fuction
+ * jack_bauer - function to print absolute values
  *
- * Return: return 0 as successs
+ * Return: return depends on input
  */
-int main(void)
+
+void jack_bauer(void)
 {
-	printf("_putchar\n");
-	return (0);
+	int i;
+	int j;
+	int k;
+	int l;
+
+	for (i = 0; i < 3; i++)
+	{
+		for (j = i; j < 4; j++)
+		{
+			for (k = 0; k < 6; k++)
+			{
+				for (l = 0; l < 10; l++)
+				{
+					_putchar(i);
+					_putchar(j);
+					_putchar(':');
+					_putchar(k);
+					_putchar(l);
+				}
+			}
+		}
+	}
 }
