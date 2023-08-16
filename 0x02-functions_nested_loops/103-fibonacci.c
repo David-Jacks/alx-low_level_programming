@@ -9,23 +9,18 @@
 int main(void)
 {
 	int i;
-	int j;
-	unsigned long long fibo[50];
+	int sum;
+	unsigned long long fibo[];
 
 	fibo[0] = 1;
 	fibo[1] = 2;
 
-	for (i = 2; i < 50; i++)
+	for (i = 2; fibo[i] < 4000000; i++)
 	{
 		fibo[i] = fibo[i - 1] + fibo[i - 2];
+		if (fibo[i] % 2 == 0)
+			sum += fibo[i]
 	}
-	for (j = 0; j < 50; j++)
-	{
-		printf("%lu", fibo[j]);
-		if (j == 50)
-			break;
-		printf(", ");
-	}
-	putchar('\n');
+	printf("%d\n", sum);
 	return (0);
 }
