@@ -8,9 +8,9 @@
 
 int _abs(int n)
 {
-	int ans = print_sign(n);
+	int ans;
 
-	if (ans == -1)
+	if (n & (1 << (sizeof(int) * 8 - 1)))
 		ans = n * -1;
 	else
 		ans = n;

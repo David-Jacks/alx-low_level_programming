@@ -8,9 +8,9 @@
 
 int print_last_digit(int n)
 {
-	int ans = print_sign(n);
+	int ans;
 
-	if (ans == -1)
+	if (n & (0x80000000))
 		ans = (n % 10) * -1;
 	else
 		ans = n % 10;
