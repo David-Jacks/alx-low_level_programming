@@ -10,14 +10,14 @@ int print_last_digit(int n)
 {
 	int ans = n % 10;
 
-	if (n & (0x80000000))
+	if (ans < 0)
 	{
 		_putchar(-ans + '0');
 		return (-ans);
 	}
 	else
 	{
-		putchar(ans + '0');
+		_putchar(ans + '0');
 		return (ans);
 	}
 }
