@@ -30,6 +30,7 @@ void print_to_98(int n)
 				break;
 			printf(", ");
 		}
+		_putchar('\n');
 	}
 
 }
