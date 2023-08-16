@@ -8,6 +8,8 @@
 
 int main(void)
 {
+	int i;
+	int j;
 	int fibo[50];
 
 	fibo[0] = 1;
