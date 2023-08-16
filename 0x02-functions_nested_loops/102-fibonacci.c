@@ -1,20 +1,29 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_to_98 - function to print absolute values
- * @n: a variable to contain the number to be checked
+ * main - function to print absolute values
+ *
+ * Return: returns 0 for end of program
  */
 
-void print_to_98(int n)
+int main(void)
 {
-	int i;
+	int fibo[50];
 
-	for (i = n; i < 99; i++)
+	fibo[0] = 1;
+	fibo[1] = 2;
+
+	for (i = 2; i <= 50; i++)
 	{
-		printf("%d", i);
-		if (n == 98)
+		f[i] = f[i - 1] + f[i - 2];
+	}
+	for (j = 0; j <= 50; j++)
+	{
+		printf("%lu", f[j]);
+		if (j == 50)
 			break;
 		printf(", ");
 	}
-	_putchar('\n');
+	putchar('\n');
+	return (0);
 }
