@@ -19,7 +19,7 @@ int main(void)
 		fibo_next = fibo1 + fibo2;
 		if (i == 97)
 		{
-			printf("%u", fibo_next)
+			printf("%u", fibo_next);
 		}
 		else
 		{
