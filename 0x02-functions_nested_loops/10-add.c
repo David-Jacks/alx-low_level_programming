@@ -1,12 +1,13 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main - main fuction
- *
- * Return: return 0 as successs
+ * add - function to print absolute values
+ * @n: a variable to contain the number to be checked
+ * @a: second variable
+ * Return: return depends on input
  */
-int main(void)
+
+int add(int n, int a)
 {
-	printf("_putchar\n");
-	return (0);
+	return (n + a);
 }
