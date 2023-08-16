@@ -8,6 +8,8 @@
 
 int main(void)
 {
+	int i;
+	int j;
 	int fibo[50];
 
 	fibo[0] = 1;
@@ -15,11 +17,11 @@ int main(void)
 
 	for (i = 2; i <= 50; i++)
 	{
-		f[i] = f[i - 1] + f[i - 2];
+		fibo[i] = fibo[i - 1] + fibo[i - 2];
 	}
 	for (j = 0; j <= 50; j++)
 	{
-		printf("%lu", f[j]);
+		printf("%lu", fibo[j]);
 		if (j == 50)
 			break;
 		printf(", ");
