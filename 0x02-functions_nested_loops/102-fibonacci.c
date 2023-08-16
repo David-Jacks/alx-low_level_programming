@@ -22,7 +22,7 @@ int main(void)
 	for (j = 0; j < 50; j++)
 	{
 		printf("%lu", fibo[j]);
-		if (j == 50)
+		if (j == 49)
 			break;
 		printf(", ");
 	}
