@@ -15,7 +15,7 @@ int main(void)
 	fibo[0] = 1;
 	fibo[1] = 2;
 
-	for (i = 2; i <= 50; i++)
+	for (i = 2; i < 50; i++)
 	{
 		fibo[i] = fibo[i - 1] + fibo[i - 2];
 	}
