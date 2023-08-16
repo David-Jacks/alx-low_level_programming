@@ -19,7 +19,7 @@ int main(void)
 	{
 		fibo[i] = fibo[i - 1] + fibo[i - 2];
 	}
-	for (j = 0; j <= 50; j++)
+	for (j = 0; j < 50; j++)
 	{
 		printf("%lu", fibo[j]);
 		if (j == 50)

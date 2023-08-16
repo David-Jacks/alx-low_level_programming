@@ -10,16 +10,16 @@ int main(void)
 {
 	int i;
 	int j;
-	int fibo[50];
+	unsigned long long fibo[50];
 
 	fibo[0] = 1;
 	fibo[1] = 2;
 
-	for (i = 2; i <= 50; i++)
+	for (i = 2; i < 50; i++)
 	{
 		fibo[i] = fibo[i - 1] + fibo[i - 2];
 	}
-	for (j = 0; j <= 50; j++)
+	for (j = 0; j < 50; j++)
 	{
 		printf("%lu", fibo[j]);
 		if (j == 50)
