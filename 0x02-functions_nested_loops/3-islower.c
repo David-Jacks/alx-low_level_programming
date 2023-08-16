@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * _islower - returns if an alphabet is lowercase
  *@c: argument to be checked

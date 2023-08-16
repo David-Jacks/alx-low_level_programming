@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * _isalpha - function to check for a letter
  * @c: specifies the character to be checked

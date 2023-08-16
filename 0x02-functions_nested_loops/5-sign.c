@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_sign - function to print sign
  * @n: a variable to contain the number to be checked
