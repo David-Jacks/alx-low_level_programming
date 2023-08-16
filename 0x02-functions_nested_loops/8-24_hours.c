@@ -3,7 +3,6 @@
 /**
  * jack_bauer - function to print absolute values
  *
- * Return: return depends on input
  */
 
 void jack_bauer(void)
