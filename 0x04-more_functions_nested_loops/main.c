@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	print_diagonal(10);
+	more_numbers();
 	return (0);
 }
