@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	more_numbers();
+	print_number(58976);
 	return (0);
 }
