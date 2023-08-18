@@ -8,18 +8,25 @@
 
 void print_number(int n)
 {
-	int i;
-	int j = 0;
-	int z = 1;
-	int f = n;
+	unsigned int i;
+	unsigned int j = 0;
+	unsigned int z = 1;
+	unsigned int f = n;
+	int neg = 0;
 
+	if (n < 0)
+	{
+		f = -f;
+		neg = 1;
+	}
 	while (n != 0)
 	{
 		z = z * 10;
 		n = n / 10;
 		j++;
 	}
-
+	if (neg)
+		_putchar('-');
 	for (i = 0; i <= j; i++)
 	{
 		if (z >= 10)
