@@ -2,11 +2,12 @@
 #include "main.h"
 
 /**
- *fizz_buzz - start code execution
+ *main - start code execution
  *
+ *Return: 0 for success
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -38,4 +39,5 @@ void fizz_buzz(void)
 		}
 	}
 	_putchar('\n');
+	return (0);
 }
