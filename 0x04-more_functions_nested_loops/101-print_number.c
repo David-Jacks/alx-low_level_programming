@@ -8,10 +8,10 @@
 
 void print_number(int n)
 {
-	unsigned int i;
-	unsigned int j = 0;
-	unsigned int z = 1;
-	unsigned int f = n;
+	int i;
+	int j = 0;
+	int z = 1;
+	int f = n;
 	int neg = 0;
 
 	if (n < 0)
