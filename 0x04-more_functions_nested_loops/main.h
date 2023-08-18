@@ -1,6 +1,7 @@
 #ifndef MAIN_HEADER_FILES
 #define MAIN_HEADER_FILES
 
+void fizz_buzz(void);
 void print_triangle(int size);
 void print_square(int size);
 void print_diagonal(int n);

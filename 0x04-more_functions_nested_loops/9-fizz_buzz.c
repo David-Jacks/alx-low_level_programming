@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- *main - start code execution
- *Return: always 0 for succes
+ *fizz_buzz - start code execution
+ *
  */
 
-int main(void)
+void fizz_buzz(void)
 {
 	int i;
 
@@ -38,5 +38,4 @@ int main(void)
 		}
 	}
 	_putchar('\n');
-	return (0);
 }
