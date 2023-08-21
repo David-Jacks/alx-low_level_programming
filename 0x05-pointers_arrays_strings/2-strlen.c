@@ -4,6 +4,7 @@
 /**
  * _strlen - length of a string
  * @s: string to be checked
+ * Return: count of char in s
  */
 
 int _strlen(char *s)
