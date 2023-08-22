@@ -2,16 +2,25 @@
 #include "main.h"
 
 /**
- * _puts - swaps values
- * @str: string to be printed
+ * puts_half - print half string
+ * @str: string half to be printed
  */
 
-void _puts(char *str)
+void puts_half(char *str)
 {
-	while (*str != '\0')
+	int i;
+	int j;
+	int n;
+	int count = 0;
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(*str);
-		*str++;
+		count++;
+	}
+	n = count / 2;
+	for (j = n; j < count; j++)
+	{
+		_putchar(str[j]);
 	}
 	_putchar('\n');
 }

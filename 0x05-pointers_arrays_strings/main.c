@@ -8,8 +8,6 @@
  */
 int main(void)
 {
-	char a[] = "hello";
-	rev_string(a);
-	puts(a);
+	puts_half("0123456789");
 	return (0);
 }
