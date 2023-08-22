@@ -9,6 +9,6 @@
 int main(void)
 {
 	int arr[7] = {4, 8 , 5, 7, 6, 5 , 3};
-	print_array(arr, 5);
+	print_array(arr, 0);
 	return (0);
 }
