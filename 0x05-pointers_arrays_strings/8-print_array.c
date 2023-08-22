@@ -2,17 +2,20 @@
 #include "main.h"
 
 /**
- * print_rev - print reversely
- * @s: string to be printed
+ * print_array - print array values
+ * @a: pointer to array
+ * @n: number of elements to be printed
  */
 
-void print_rev(char *s)
+void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = _strlen(s) - 1; i >= 0; i--)
+	for (i = 0; i < n; i++)
 	{
-		_putchar(*(s + i));
+		if (i != n - 1)
+			printf("%d, ", a[i]);
+		else
+			printf("%d\n", a[i]);
 	}
-	_putchar('\n');
 }

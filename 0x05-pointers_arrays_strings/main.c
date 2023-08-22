@@ -8,6 +8,7 @@
  */
 int main(void)
 {
-	puts_half("0123456789");
+	int arr[7] = {4, 8 , 5, 7, 6, 5 , 3};
+	print_array(arr, 5);
 	return (0);
 }
