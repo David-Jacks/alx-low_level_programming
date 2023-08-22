@@ -8,7 +8,9 @@
  */
 int main(void)
 {
-	int arr[7] = {4, 8 , 5, 7, 6, 5 , 3};
-	print_array(arr, 0);
+	char dest[] = "";
+	char src[] = "hello";
+
+	printf("%s\n", _strcpy(dest, src));
 	return (0);
 }

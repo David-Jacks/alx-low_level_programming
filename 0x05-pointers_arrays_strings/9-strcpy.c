@@ -2,17 +2,16 @@
 #include "main.h"
 
 /**
- * print_rev - print reversely
- * @s: string to be printed
+ * _strcpy - copy strings
+ * @dest: destination
+ * @src: the string to be copied
+ * Return: returns destination string
  */
 
-void print_rev(char *s)
+char *_strcpy(char *dest, char *src)
 {
-	int i;
 
-	for (i = _strlen(s) - 1; i >= 0; i--)
-	{
-		_putchar(*(s + i));
-	}
-	_putchar('\n');
+	dest = src;
+	*dest = *src;
+	return (dest);
 }
