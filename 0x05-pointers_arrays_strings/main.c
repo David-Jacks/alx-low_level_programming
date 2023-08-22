@@ -8,6 +8,7 @@
  */
 int main(void)
 {
-	print_rev("Hello");
+	int a = _strlen("Hello");
+	printf("%d\n", a);
 	return (0);
 }
