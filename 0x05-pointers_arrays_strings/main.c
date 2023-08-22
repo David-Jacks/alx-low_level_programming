@@ -8,6 +8,8 @@
  */
 int main(void)
 {
-	print_rev("hello");
+	char a[] = "hello";
+	rev_string(a);
+	puts(a);
 	return (0);
 }
