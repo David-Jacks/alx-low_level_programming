@@ -8,7 +8,6 @@
  */
 int main(void)
 {
-	int a = _strlen("Hello");
-	printf("%d\n", a);
+	_puts("hello");
 	return (0);
 }
