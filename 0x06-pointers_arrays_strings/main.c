@@ -11,6 +11,6 @@ int main(void)
 	char dest[] = "hime ";
 	char src[] = "hello";
 
-	printf("%s\n", _strcat(dest, src));
+	printf("%s\n", _strncat(dest, src, 2));
 	return (0);
 }
