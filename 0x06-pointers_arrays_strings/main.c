@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char dest[] = "hime";
+	char dest[] = "hime ";
 	char src[] = "hello";
 
 	printf("%s\n", _strcat(dest, src));
