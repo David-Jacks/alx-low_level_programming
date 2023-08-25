@@ -2,29 +2,28 @@
 #include "main.h"
 
 /**
- *_strcmp - compares strings
- *@s1: string 1
- *@s2: string 2
- *Return: returns an integer value
+ *cap_string - capitalizes strings
+ *@s: a character arrays address
+ *
+ *Return: returns a pointer to a character array
  */
 
-int _strcmp(char *s1, char *s2)
+char *cap_string(char *s)
 {
 	int i = 0;
+	int j;
 
-	while (s1[i] != '\0' && s2[i] != '\0')
+	if (s[0] > 'a' && s[0] < 'z')
+		s[0] = s[0] - 32;
+	while (s[i] != '\0')
 	{
-		if (s1[i] < s2[i])
-			return (-1);
-		else if (s1[i] > s2[i])
-			return (1);
 		i++;
 	}
 
-	if (s1[i] == '\0' && s2[i] == '\0')
-		return (0);
-	else if (s1[i] == '\0')
-		return (-1);
-	else
-		return (1);
+	for (j = 1; j < i; j++)
+	{
+		if (s[j - 1] == ' ' && s[j] > 'a' && s[j] < 'z')
+			s[j] = (s[j] - 32);
+	}
+	return (s);
 }

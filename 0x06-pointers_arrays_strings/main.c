@@ -11,6 +11,6 @@ int main(void)
 	int dest[] = {1, 2, 3, 4, 5};
 	char src[] = "hello@!";
 
-	printf("%s\n", string_toupper(src));
+	printf("%s\n", cap_string(src));
 	return (0);
 }
