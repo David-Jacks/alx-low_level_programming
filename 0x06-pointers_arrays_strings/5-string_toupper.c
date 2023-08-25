@@ -2,29 +2,26 @@
 #include "main.h"
 
 /**
- *_strcmp - compares strings
- *@s1: string 1
- *@s2: string 2
- *Return: returns an integer value
+ *string_toupper - converts strings to upper_case
+ *@s: a character arrays address
+ *
+ *Return: returns a pointer to a character array
  */
 
-int _strcmp(char *s1, char *s2)
+char *string_toupper(char *s)
 {
 	int i = 0;
+	int j;
 
-	while (s1[i] != '\0' && s2[i] != '\0')
+	while (s[i] != '\0')
 	{
-		if (s1[i] < s2[i])
-			return (-1);
-		else if (s1[i] > s2[i])
-			return (1);
 		i++;
 	}
 
-	if (s1[i] == '\0' && s2[i] == '\0')
-		return (0);
-	else if (s1[i] == '\0')
-		return (-1);
-	else
-		return (1);
+	for (j = 0; j < i; j++)
+	{
+		if (s[j] > 'a' && s[j] < 'z')
+			s[j] = (s[j] - 32);
+	}
+	return (s);
 }

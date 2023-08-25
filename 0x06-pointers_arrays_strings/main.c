@@ -8,12 +8,9 @@
  */
 int main(void)
 {
-	int i;
 	int dest[] = {1, 2, 3, 4, 5};
-	char src[] = "hello";
+	char src[] = "hello@!";
 
-	reverse_array(dest, 5);
-	for (i = 0; i < 5; i++)
-		printf("%d\n", dest[i]);
+	printf("%s\n", string_toupper(src));
 	return (0);
 }
