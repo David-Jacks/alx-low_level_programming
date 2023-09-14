@@ -5,6 +5,6 @@ int main(void)
 	/*int ans = sum_them_all(2, 98, 1024);
 	printf("%d\n", ans);*/
 
-	print_numbers(", ", 4, 0, 98, -1024, 402);
+	print_strings(", ", 2, "Jay", "Django");
 	return (0);
 }
