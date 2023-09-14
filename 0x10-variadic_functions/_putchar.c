@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "variadic_functions.h"
 #include <unistd.h>
 /**
@@ -9,6 +10,7 @@
  */
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+	printf("%c", c);
+	return (1);
 }
 
