@@ -1,10 +1,10 @@
-#ifndef MAIN_HEADER
-#define MAIN_HEADER
+#ifndef LISTS_H
+#define LISTS_H
 
 /**
  * struct list_s - Singly linked list
  * @str: string
- * @strlen: string length
+ * @len: string length
  * @next: pointer to resolve nodes ahead
  *
  * Description: singly linked list node structure for my alx project
@@ -13,7 +13,7 @@
 struct list_s
 {
 	char *str;
-	unsigned int strlen;
+	unsigned int len;
 	struct list_s *next;
 } list_t;
 
@@ -24,3 +24,4 @@ list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
 #endif
+
