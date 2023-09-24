@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef LISTS_H
 #define LISTS_H
 
@@ -17,10 +16,6 @@ typedef struct list_s
 	unsigned int len;
 	struct list_s *next;
 } list_t;
-=======
-#ifndef MAIN_HEADER
-#define MAIN_HEADER
->>>>>>> 01afb515f2c4cad8960efbbc78050bc472bed639
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
@@ -29,7 +24,4 @@ list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
 #endif
-<<<<<<< HEAD
 
-=======
->>>>>>> 01afb515f2c4cad8960efbbc78050bc472bed639
