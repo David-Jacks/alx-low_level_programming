@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 *c programming module @ alx africa*
 
 A complete guide to effecient and best programming principles, *focusing on C*
-=======
 
-### C_programming_module
+C_programming_module
 this file is singly list data structure
 *c programming module @ alx africa*
 
 A complete guide to effecient and best programming principles, *focusing on C*
 
->>>>>>> eb3cde00986f0ee95c7694fc8743139ca5575aa6
